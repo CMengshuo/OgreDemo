@@ -17,9 +17,8 @@ enum DIRECTION{
 
 enum ATTACKMODE{
 	ATK_TRACK_MISSILE,
-	ATK_NORMAL_MISSILE,
+	ATK_SPECIAL_MISSILE,
 	ATK_COMBUSTION,
-	ATK_NONE,
 };
 
 class GamePlayer: public GameObject{
